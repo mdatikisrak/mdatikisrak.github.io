@@ -3,33 +3,964 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="MD. ATIK ISRAK">
-<title>MD. ATIK ISRAK— n8n workflow automation specialist.</title>
-<link rel="icon" type="image/png" href="favicon.png">  
+<meta name="description" content="MD. ATIK ISRAK — Professional n8n workflow automation specialist.">
+<title>MD. ATIK ISRAK — n8n Workflow Automation Specialist</title>
+<link rel="icon" type="image/png" href="favicon.png">
+
 <style>
-:root{--bg:#070a12;--panel:#0e1422;--line:rgba(255,255,255,.1);--text:#f6f8ff;--muted:#9ba7bd;--orange:#ff6d3d;--gold:#ffa23e;--blue:#7b8cff;--shadow:0 22px 70px rgba(0,0,0,.35)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}a{color:inherit;text-decoration:none}.orb{position:fixed;border-radius:50%;filter:blur(2px);pointer-events:none;z-index:-1;opacity:.42}.orb.one{height:42rem;width:42rem;background:radial-gradient(circle,rgba(255,109,61,.16),transparent 68%);right:-18rem;top:-17rem}.orb.two{height:35rem;width:35rem;background:radial-gradient(circle,rgba(123,140,255,.13),transparent 68%);left:-16rem;top:28rem}.container{width:min(1160px,90%);margin:auto}.nav{position:fixed;inset:0 0 auto;z-index:20;border-bottom:1px solid transparent;transition:.3s}.nav.scrolled{background:rgba(7,10,18,.78);backdrop-filter:blur(18px);border-color:var(--line)}.navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:800;letter-spacing:.03em;font-size:1rem}.brand b{color:var(--orange)}.links{display:flex;align-items:center;gap:28px;color:var(--muted);font-size:.92rem}.links a:hover{color:#fff}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;padding:12px 19px;font-weight:750;transition:transform .22s,box-shadow .22s,background .22s;cursor:pointer}.nav-cta,.btn.primary{background:linear-gradient(125deg,var(--orange),var(--gold));color:#160a05}.nav-cta:hover,.btn.primary:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(255,109,61,.26)}.menu{display:none;background:none;border:0;color:#fff;font-size:1.45rem}.hero{min-height:100vh;display:grid;align-items:center;padding:128px 0 72px}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:#ffb18d;background:rgba(255,109,61,.1);border:1px solid rgba(255,109,61,.26);padding:7px 12px;border-radius:999px;font-size:.8rem;font-weight:750}.dot{width:7px;height:7px;background:#81e6b0;border-radius:50%;box-shadow:0 0 0 5px rgba(129,230,176,.11)}h1{font-size:clamp(2.7rem,5.5vw,5.35rem);line-height:1.03;letter-spacing:-.06em;margin:20px 0}.accent{background:linear-gradient(110deg,#fff 15%,#ffb18d 65%,#ff8a4f);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{color:var(--muted);font-size:1.1rem;max-width:610px}.hero-actions{display:flex;flex-wrap:wrap;gap:13px;margin-top:31px}.btn.ghost{border:1px solid var(--line);color:#e8ebf6;background:rgba(255,255,255,.025)}.btn.ghost:hover{background:rgba(255,255,255,.08);transform:translateY(-2px)}.availability{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:.9rem;margin-top:24px}.workflow{position:relative;height:430px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.015));box-shadow:var(--shadow);overflow:hidden}.workflow:after{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.14) 1px,transparent 1px);background-size:24px 24px;mask-image:linear-gradient(to bottom,black,transparent)}.flowtitle{position:absolute;z-index:2;top:24px;left:24px;font-size:.78rem;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}.line{position:absolute;background:linear-gradient(90deg,rgba(255,109,61,.15),rgba(255,162,62,.8),rgba(123,140,255,.15));height:2px;transform-origin:left;z-index:1}.l1{width:140px;left:108px;top:166px;transform:rotate(21deg)}.l2{width:120px;left:235px;top:211px;transform:rotate(-22deg)}.l3{width:115px;left:184px;top:276px;transform:rotate(-15deg)}.node{position:absolute;z-index:3;width:78px;height:78px;border-radius:18px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.16);background:#111a2b;box-shadow:0 10px 28px rgba(0,0,0,.32);font-size:28px}.n1{left:48px;top:115px;background:linear-gradient(135deg,#ff6d3d,#ff9c3d)}.n2{left:205px;top:182px;background:linear-gradient(135deg,#7c8dff,#9b6cff)}.n3{right:48px;top:138px;background:linear-gradient(135deg,#3dcbb2,#47a1f2)}.n4{left:145px;bottom:58px;background:linear-gradient(135deg,#e85ac8,#8c6cff)}.mini{font-size:.75rem;color:var(--muted);position:absolute;z-index:3;right:24px;bottom:19px}.section{padding:106px 0}.alt{background:rgba(255,255,255,.022);border-block:1px solid rgba(255,255,255,.04)}.section-head{max-width:720px;margin-bottom:42px}.kicker{font-size:.78rem;text-transform:uppercase;letter-spacing:.15em;color:#ffad82;font-weight:800}.section h2{font-size:clamp(2rem,3.5vw,3.25rem);letter-spacing:-.045em;line-height:1.1;margin:10px 0 12px}.section-head p{color:var(--muted);margin:0}.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:24px}.profile-card,.statement,.service,.deliverable,.contact-card{border:1px solid var(--line);background:rgba(14,20,34,.73);box-shadow:var(--shadow);border-radius:22px}.profile-card{padding:30px}.monogram{width:70px;height:70px;display:grid;place-items:center;border-radius:20px;background:linear-gradient(145deg,var(--orange),#7d467f);font-weight:900;font-size:1.3rem}.profile-card h3{font-size:1.6rem;margin:18px 0 2px}.muted{color:var(--muted)}.skills{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.skill{font-size:.78rem;border:1px solid var(--line);color:#d5dbee;border-radius:999px;padding:6px 10px}.statement{padding:30px;font-size:1.08rem;color:#ced5e7}.statement p{margin-top:0}.statement strong{color:#fff}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{padding:25px;transition:.25s}.service:hover,.deliverable:hover{transform:translateY(-5px);border-color:rgba(255,162,62,.4)}.icon{height:47px;width:47px;border-radius:14px;display:grid;place-items:center;background:rgba(255,109,61,.13);font-size:22px}.service h3,.deliverable h3{font-size:1.1rem;margin:18px 0 7px}.service p,.deliverable p{font-size:.92rem;color:var(--muted);margin:0}.deliverable-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.deliverable{padding:26px;transition:.25s}.contact-box{display:grid;grid-template-columns:1fr;gap:22px;padding:42px;border-radius:28px;background:linear-gradient(125deg,rgba(255,109,61,.94),rgba(204,81,73,.92) 55%,rgba(116,81,147,.92));box-shadow:var(--shadow);text-align:center}.contact-box h2{margin:9px 0 12px;line-height:1.08;letter-spacing:-.04em;font-size:clamp(2rem,3.7vw,3.25rem)}.contact-box p{margin:0 auto 24px;color:rgba(255,255,255,.86);max-width:600px}.footer{padding:34px 0;color:var(--muted);font-size:.88rem}.footerin{display:flex;gap:20px;justify-content:space-between;align-items:center}.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.show{opacity:1;transform:none}
-@media(max-width:850px){.links{display:none}.menu{display:block}.nav.open{background:#0a0e18}.nav.open .links{display:flex;position:absolute;top:76px;left:0;right:0;padding:20px 5%;background:#0a0e18;flex-direction:column;align-items:flex-start;gap:17px;border-bottom:1px solid var(--line)}.hero-grid,.about-grid,.contact-box{grid-template-columns:1fr}.hero{padding-top:116px}.workflow{height:360px;max-width:500px;width:100%;margin:auto}.service-grid,.deliverable-grid{grid-template-columns:1fr 1fr}.nav-cta{padding:10px 14px;font-size:.85rem}}
-@media(max-width:560px){.container{width:min(91%,1160px)}.navin{height:68px}.nav.open .links{top:68px}.hero{padding:104px 0 52px}h1{font-size:2.75rem}.workflow{height:310px}.node{width:61px;height:61px;font-size:22px}.n1{left:22px;top:105px}.n2{left:118px;top:154px}.n3{right:20px;top:112px}.n4{left:89px;bottom:38px}.l1{left:75px;top:143px;width:95px}.l2{left:175px;top:184px;width:79px}.l3{left:132px;top:228px;width:82px}.section{padding:75px 0}.service-grid,.deliverable-grid{grid-template-columns:1fr}.contact-box{padding:29px 23px}.footerin{align-items:flex-start;flex-direction:column}.nav-cta{padding:9px 12px}.brand{font-size:.87rem}}
+:root{
+  --bg:#070a12;
+  --panel:#0e1422;
+  --line:rgba(255,255,255,.1);
+  --text:#f6f8ff;
+  --muted:#9ba7bd;
+  --orange:#ff6d3d;
+  --gold:#ffa23e;
+  --blue:#7b8cff;
+  --shadow:0 22px 70px rgba(0,0,0,.35);
+}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{
+  margin:0;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+  overflow-x:hidden;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+.orb{
+  position:fixed;
+  border-radius:50%;
+  filter:blur(2px);
+  pointer-events:none;
+  z-index:-1;
+  opacity:.42;
+}
+
+.orb.one{
+  height:42rem;
+  width:42rem;
+  background:radial-gradient(circle,rgba(255,109,61,.16),transparent 68%);
+  right:-18rem;
+  top:-17rem;
+}
+
+.orb.two{
+  height:35rem;
+  width:35rem;
+  background:radial-gradient(circle,rgba(123,140,255,.13),transparent 68%);
+  left:-16rem;
+  top:28rem;
+}
+
+.container{
+  width:min(1160px,90%);
+  margin:auto;
+}
+
+/* Navigation */
+
+.nav{
+  position:fixed;
+  inset:0 0 auto;
+  z-index:20;
+  border-bottom:1px solid transparent;
+  transition:.3s;
+}
+
+.nav.scrolled{
+  background:rgba(7,10,18,.78);
+  backdrop-filter:blur(18px);
+  border-color:var(--line);
+}
+
+.navin{
+  height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+}
+
+.brand{
+  font-weight:800;
+  letter-spacing:.03em;
+  font-size:1rem;
+}
+
+.brand b{color:var(--orange)}
+
+.links{
+  display:flex;
+  align-items:center;
+  gap:28px;
+  color:var(--muted);
+  font-size:.92rem;
+}
+
+.links a:hover{color:#fff}
+
+.nav-cta,
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  border-radius:999px;
+  padding:12px 19px;
+  font-weight:750;
+  transition:transform .22s,box-shadow .22s,background .22s;
+  cursor:pointer;
+}
+
+.nav-cta,
+.btn.primary{
+  background:linear-gradient(125deg,var(--orange),var(--gold));
+  color:#160a05;
+}
+
+.nav-cta:hover,
+.btn.primary:hover{
+  transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(255,109,61,.26);
+}
+
+.menu{
+  display:none;
+  background:none;
+  border:0;
+  color:#fff;
+  font-size:1.45rem;
+}
+
+/* Hero */
+
+.hero{
+  min-height:100vh;
+  display:grid;
+  align-items:center;
+  padding:128px 0 72px;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:56px;
+  align-items:center;
+}
+
+.eyebrow{
+  display:inline-flex;
+  gap:8px;
+  align-items:center;
+  color:#ffb18d;
+  background:rgba(255,109,61,.1);
+  border:1px solid rgba(255,109,61,.26);
+  padding:7px 12px;
+  border-radius:999px;
+  font-size:.8rem;
+  font-weight:750;
+}
+
+.dot{
+  width:7px;
+  height:7px;
+  background:#81e6b0;
+  border-radius:50%;
+  box-shadow:0 0 0 5px rgba(129,230,176,.11);
+}
+
+h1{
+  font-size:clamp(2.7rem,5.5vw,5.35rem);
+  line-height:1.03;
+  letter-spacing:-.06em;
+  margin:20px 0;
+}
+
+.accent{
+  background:linear-gradient(110deg,#fff 15%,#ffb18d 65%,#ff8a4f);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+.lead{
+  color:var(--muted);
+  font-size:1.1rem;
+  max-width:610px;
+}
+
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:13px;
+  margin-top:31px;
+}
+
+.btn.ghost{
+  border:1px solid var(--line);
+  color:#e8ebf6;
+  background:rgba(255,255,255,.025);
+}
+
+.btn.ghost:hover{
+  background:rgba(255,255,255,.08);
+  transform:translateY(-2px);
+}
+
+.availability{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:var(--muted);
+  font-size:.9rem;
+  margin-top:24px;
+}
+
+/* Workflow visual */
+
+.workflow{
+  position:relative;
+  height:430px;
+  border:1px solid var(--line);
+  border-radius:28px;
+  background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.015));
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+
+.workflow:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:radial-gradient(rgba(255,255,255,.14) 1px,transparent 1px);
+  background-size:24px 24px;
+  mask-image:linear-gradient(to bottom,black,transparent);
+}
+
+.flowtitle{
+  position:absolute;
+  z-index:2;
+  top:24px;
+  left:24px;
+  font-size:.78rem;
+  letter-spacing:.12em;
+  color:var(--muted);
+  text-transform:uppercase;
+}
+
+.line{
+  position:absolute;
+  background:linear-gradient(90deg,rgba(255,109,61,.15),rgba(255,162,62,.8),rgba(123,140,255,.15));
+  height:2px;
+  transform-origin:left;
+  z-index:1;
+}
+
+.l1{width:140px;left:108px;top:166px;transform:rotate(21deg)}
+.l2{width:120px;left:235px;top:211px;transform:rotate(-22deg)}
+.l3{width:115px;left:184px;top:276px;transform:rotate(-15deg)}
+
+.node{
+  position:absolute;
+  z-index:3;
+  width:78px;
+  height:78px;
+  border-radius:18px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(255,255,255,.16);
+  background:#111a2b;
+  box-shadow:0 10px 28px rgba(0,0,0,.32);
+  font-size:28px;
+}
+
+.n1{left:48px;top:115px;background:linear-gradient(135deg,#ff6d3d,#ff9c3d)}
+.n2{left:205px;top:182px;background:linear-gradient(135deg,#7c8dff,#9b6cff)}
+.n3{right:48px;top:138px;background:linear-gradient(135deg,#3dcbb2,#47a1f2)}
+.n4{left:145px;bottom:58px;background:linear-gradient(135deg,#e85ac8,#8c6cff)}
+
+.mini{
+  font-size:.75rem;
+  color:var(--muted);
+  position:absolute;
+  z-index:3;
+  right:24px;
+  bottom:19px;
+}
+
+/* Sections */
+
+.section{padding:106px 0}
+
+.alt{
+  background:rgba(255,255,255,.022);
+  border-block:1px solid rgba(255,255,255,.04);
+}
+
+.section-head{
+  max-width:720px;
+  margin-bottom:42px;
+}
+
+.kicker{
+  font-size:.78rem;
+  text-transform:uppercase;
+  letter-spacing:.15em;
+  color:#ffad82;
+  font-weight:800;
+}
+
+.section h2{
+  font-size:clamp(2rem,3.5vw,3.25rem);
+  letter-spacing:-.045em;
+  line-height:1.1;
+  margin:10px 0 12px;
+}
+
+.section-head p{
+  color:var(--muted);
+  margin:0;
+}
+
+/* About */
+
+.about-grid{
+  display:grid;
+  grid-template-columns:.85fr 1.15fr;
+  gap:24px;
+}
+
+.profile-card,
+.statement,
+.service,
+.deliverable{
+  border:1px solid var(--line);
+  background:rgba(14,20,34,.73);
+  box-shadow:var(--shadow);
+  border-radius:22px;
+}
+
+.profile-card{padding:30px}
+
+.monogram{
+  width:70px;
+  height:70px;
+  display:grid;
+  place-items:center;
+  border-radius:20px;
+  background:linear-gradient(145deg,var(--orange),#7d467f);
+  font-weight:900;
+  font-size:1.3rem;
+}
+
+.profile-card h3{
+  font-size:1.6rem;
+  margin:18px 0 2px;
+}
+
+.muted{color:var(--muted)}
+
+.skills{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:22px;
+}
+
+.skill{
+  font-size:.78rem;
+  border:1px solid var(--line);
+  color:#d5dbee;
+  border-radius:999px;
+  padding:6px 10px;
+}
+
+.statement{
+  padding:30px;
+  font-size:1.08rem;
+  color:#ced5e7;
+}
+
+.statement p{margin-top:0}
+.statement strong{color:#fff}
+
+/* Services */
+
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+}
+
+.service{
+  padding:25px;
+  transition:.25s;
+}
+
+.service:hover,
+.deliverable:hover{
+  transform:translateY(-5px);
+  border-color:rgba(255,162,62,.4);
+}
+
+.icon{
+  height:47px;
+  width:47px;
+  border-radius:14px;
+  display:grid;
+  place-items:center;
+  background:rgba(255,109,61,.13);
+  font-size:22px;
+}
+
+.service h3,
+.deliverable h3{
+  font-size:1.1rem;
+  margin:18px 0 7px;
+}
+
+.service p,
+.deliverable p{
+  font-size:.92rem;
+  color:var(--muted);
+  margin:0;
+}
+
+/* Deliverables */
+
+.deliverable-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+}
+
+.deliverable{
+  padding:26px;
+  transition:.25s;
+}
+
+/* Contact */
+
+.contact-box{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:22px;
+  padding:48px;
+  border-radius:28px;
+  background:linear-gradient(125deg,rgba(255,109,61,.94),rgba(204,81,73,.92) 55%,rgba(116,81,147,.92));
+  box-shadow:var(--shadow);
+  text-align:center;
+}
+
+.contact-box h2{
+  margin:9px 0 12px;
+  line-height:1.08;
+  letter-spacing:-.04em;
+  font-size:clamp(2rem,3.7vw,3.25rem);
+}
+
+.contact-box p{
+  max-width:650px;
+  margin:0 auto;
+  color:rgba(255,255,255,.86);
+}
+
+.contact-action{
+  display:flex;
+  justify-content:center;
+  margin-top:28px;
+}
+
+.contact-button{
+  background:#fff;
+  color:#1a0b08;
+  padding:15px 25px;
+  border-radius:999px;
+  font-weight:800;
+  transition:.22s;
+}
+
+.contact-button:hover{
+  transform:translateY(-3px);
+  box-shadow:0 12px 28px rgba(0,0,0,.25);
+}
+
+/* Footer */
+
+.footer{
+  padding:34px 0;
+  color:var(--muted);
+  font-size:.88rem;
+}
+
+.footerin{
+  display:flex;
+  gap:20px;
+  justify-content:space-between;
+  align-items:center;
+}
+
+/* Animation */
+
+.reveal{
+  opacity:0;
+  transform:translateY(18px);
+  transition:opacity .65s ease,transform .65s ease;
+}
+
+.reveal.show{
+  opacity:1;
+  transform:none;
+}
+
+/* Responsive */
+
+@media(max-width:850px){
+  .links{display:none}
+
+  .menu{
+    display:block;
+  }
+
+  .nav.open{
+    background:#0a0e18;
+  }
+
+  .nav.open .links{
+    display:flex;
+    position:absolute;
+    top:76px;
+    left:0;
+    right:0;
+    padding:20px 5%;
+    background:#0a0e18;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:17px;
+    border-bottom:1px solid var(--line);
+  }
+
+  .hero-grid,
+  .about-grid{
+    grid-template-columns:1fr;
+  }
+
+  .hero{padding-top:116px}
+
+  .workflow{
+    height:360px;
+    max-width:500px;
+    width:100%;
+    margin:auto;
+  }
+
+  .service-grid,
+  .deliverable-grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:560px){
+  .container{
+    width:min(91%,1160px);
+  }
+
+  .navin{height:68px}
+
+  .nav.open .links{top:68px}
+
+  .hero{
+    padding:104px 0 52px;
+  }
+
+  h1{font-size:2.75rem}
+
+  .workflow{height:310px}
+
+  .node{
+    width:61px;
+    height:61px;
+    font-size:22px;
+  }
+
+  .n1{left:22px;top:105px}
+  .n2{left:118px;top:154px}
+  .n3{right:20px;top:112px}
+  .n4{left:89px;bottom:38px}
+
+  .l1{left:75px;top:143px;width:95px}
+  .l2{left:175px;top:184px;width:79px}
+  .l3{left:132px;top:228px;width:82px}
+
+  .section{padding:75px 0}
+
+  .service-grid,
+  .deliverable-grid{
+    grid-template-columns:1fr;
+  }
+
+  .contact-box{
+    padding:35px 23px;
+  }
+
+  .footerin{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+
+  .nav-cta{
+    padding:9px 12px;
+  }
+
+  .brand{
+    font-size:.87rem;
+  }
+}
 </style>
 </head>
+
 <body>
-<div class="orb one"></div><div class="orb two"></div>
-<header class="nav" id="nav"><div class="container navin"><a class="brand" href="#home">MD. ATIK <b>ISRAK</b></a><nav class="links" aria-label="Main navigation"><a href="#about">About</a><a href="#services">Services</a><a href="#deliverables">What You Receive</a><a href="#contact">Contact</a></nav><a class="nav-cta" href="https://www.fiverr.com/s/0D99zv2" target="_blank" rel="noopener">View Fiverr Gig ↗</a><button class="menu" id="menu" aria-label="Open menu">☰</button></div></header>
+
+<div class="orb one"></div>
+<div class="orb two"></div>
+
+<header class="nav" id="nav">
+  <div class="container navin">
+    <a class="brand" href="#home">MD. ATIK <b>ISRAK</b></a>
+
+    <nav class="links" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#deliverables">What You Receive</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a
+      class="nav-cta"
+      href="https://www.fiverr.com/s/0D99zv2"
+      target="_blank"
+      rel="noopener"
+    >
+      Message on Fiverr ↗
+    </a>
+
+    <button class="menu" id="menu" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
 <main id="home">
-<section class="hero"><div class="container hero-grid"><div class="reveal"><div class="eyebrow"><span class="dot"></span> Available for automation projects</div><h1>Turn repetitive work into <span class="accent">reliable workflows.</span></h1><p class="lead">I'm MD. ATIK ISRAK, an n8n automation specialist. I build clear, custom workflows that connect your tools, automate routine tasks, and help your business operate with less manual effort.</p><div class="hero-actions"><a class="btn primary" href="https://www.fiverr.com/s/0D99zv2" target="_blank" rel="noopener">Explore my Fiverr service ↗</a><a class="btn ghost" href="#services">See services ↓</a></div><div class="availability"><span class="dot"></span> Let’s discuss your workflow requirement</div></div><div class="workflow reveal" aria-label="Illustrative automation workflow"><span class="flowtitle">Automation flow</span><span class="line l1"></span><span class="line l2"></span><span class="line l3"></span><div class="node n1">✉</div><div class="node n2">⚡</div><div class="node n3">▣</div><div class="node n4">✓</div><span class="mini">Trigger → Process → Deliver</span></div></div></section>
-<section class="section alt" id="about"><div class="container"><div class="section-head reveal"><div class="kicker">About</div><h2>Practical automation, designed around your process.</h2></div><div class="about-grid"><article class="profile-card reveal"><div class="monogram">AI</div><h3>MD. ATIK ISRAK</h3><div class="muted">n8n Workflow Automation</div><div class="skills"><span class="skill">n8n</span><span class="skill">API Integration</span><span class="skill">Webhooks</span><span class="skill">Workflow Design</span><span class="skill">AI Automation</span></div></article><article class="statement reveal"><p>I focus on understanding the task first, then creating an automation that is simple to operate and easy to follow. Whether you need apps connected, data moved between platforms, or a recurring process automated, I can help structure a workflow around your requirements.</p><p><strong>My approach:</strong> clear communication, thoughtful workflow setup, and straightforward delivery documentation.</p></article></div></div></section>
-<section class="section" id="services"><div class="container"><div class="section-head reveal"><div class="kicker">Services</div><h2>Automation services for your day-to-day operations.</h2><p>Tell me what you do manually today. I’ll help you turn it into a structured n8n workflow.</p></div><div class="service-grid"><article class="service reveal"><div class="icon">⌘</div><h3>Custom n8n Workflows</h3><p>Workflow design and setup based on your unique task, process, and business requirement.</p></article><article class="service reveal"><div class="icon">↔</div><h3>API & App Integration</h3><p>Connect applications, APIs, and webhooks so your data can move between tools smoothly.</p></article><article class="service reveal"><div class="icon">⟳</div><h3>Process Automation</h3><p>Automate recurring steps such as notifications, data handling, task routing, and scheduled actions.</p></article><article class="service reveal"><div class="icon">⌁</div><h3>Workflow Fixes</h3><p>Review existing n8n workflows, troubleshoot errors, and improve logic or reliability where needed.</p></article><article class="service reveal"><div class="icon">☁</div><h3>n8n Setup Support</h3><p>Guidance with n8n setup, configuration, credentials, and preparing your workflow environment.</p></article><article class="service reveal"><div class="icon">✦</div><h3>AI Automation</h3><p>Build workflows that use AI services for content, processing, routing, or other tailored tasks.</p></article></div></div></section>
-<section class="section alt" id="deliverables"><div class="container"><div class="section-head reveal"><div class="kicker">What you receive</div><h2>Clear deliverables for a smoother handover.</h2><p>The exact scope depends on the Fiverr package and project requirements. These are the practical items I aim to provide when applicable.</p></div><div class="deliverable-grid"><article class="deliverable reveal"><div class="icon">✓</div><h3>Configured Workflow</h3><p>A workflow built around the agreed requirements and prepared for your n8n environment.</p></article><article class="deliverable reveal"><div class="icon">▤</div><h3>Setup Guidance</h3><p>Clear information about configuration, credentials, or steps needed to run the workflow.</p></article><article class="deliverable reveal"><div class="icon">✉</div><h3>Communication</h3><p>Project updates and a direct place to ask questions before and after delivery through the agreed channel.</p></article></div></div></section>
-<section class="section" id="contact"><div class="container"><div class="contact-box reveal"><div><div class="kicker" style="color:#fff">Start a project</div><h2>Have a workflow in mind?</h2><p>Send your requirements through Fiverr. I’ll review your workflow idea and help you build the best automation path.</p><div class="hero-actions" style="justify-content:center"><a class="btn primary" style="background:#fff;color:#070a12" href="https://www.fiverr.com/s/0D99zv2" target="_blank" rel="noopener">Message on Fiverr ↗</a></div></div></div></div></section>
+
+<section class="hero">
+  <div class="container hero-grid">
+
+    <div class="reveal">
+      <div class="eyebrow">
+        <span class="dot"></span>
+        Available for automation projects
+      </div>
+
+      <h1>
+        Turn repetitive work into
+        <span class="accent">reliable workflows.</span>
+      </h1>
+
+      <p class="lead">
+        I'm MD. ATIK ISRAK, an n8n automation specialist. I build clear,
+        custom workflows that connect your tools, automate routine tasks,
+        and help your business operate with less manual effort.
+      </p>
+
+      <div class="hero-actions">
+        <a
+          class="btn primary"
+          href="https://www.fiverr.com/s/0D99zv2"
+          target="_blank"
+          rel="noopener"
+        >
+          Message me on Fiverr ↗
+        </a>
+
+        <a class="btn ghost" href="#services">
+          See services ↓
+        </a>
+      </div>
+
+      <div class="availability">
+        <span class="dot"></span>
+        Let’s discuss your workflow requirement
+      </div>
+    </div>
+
+    <div class="workflow reveal" aria-label="Illustrative automation workflow">
+      <span class="flowtitle">Automation flow</span>
+
+      <span class="line l1"></span>
+      <span class="line l2"></span>
+      <span class="line l3"></span>
+
+      <div class="node n1">✉</div>
+      <div class="node n2">⚡</div>
+      <div class="node n3">▣</div>
+      <div class="node n4">✓</div>
+
+      <span class="mini">Trigger → Process → Deliver</span>
+    </div>
+
+  </div>
+</section>
+
+<section class="section alt" id="about">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <div class="kicker">About</div>
+      <h2>Practical automation, designed around your process.</h2>
+    </div>
+
+    <div class="about-grid">
+
+      <article class="profile-card reveal">
+        <div class="monogram">AI</div>
+
+        <h3>MD. ATIK ISRAK</h3>
+        <div class="muted">n8n Workflow Automation</div>
+
+        <div class="skills">
+          <span class="skill">n8n</span>
+          <span class="skill">API Integration</span>
+          <span class="skill">Webhooks</span>
+          <span class="skill">Workflow Design</span>
+          <span class="skill">AI Automation</span>
+        </div>
+      </article>
+
+      <article class="statement reveal">
+        <p>
+          I focus on understanding the task first, then creating an automation
+          that is simple to operate and easy to follow. Whether you need apps
+          connected, data moved between platforms, or a recurring process
+          automated, I can help structure a workflow around your requirements.
+        </p>
+
+        <p>
+          <strong>My approach:</strong>
+          clear communication, thoughtful workflow setup, and straightforward
+          delivery documentation.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <div class="kicker">Services</div>
+      <h2>Automation services for your day-to-day operations.</h2>
+
+      <p>
+        Tell me what you do manually today. I’ll help you turn it into a
+        structured n8n workflow.
+      </p>
+    </div>
+
+    <div class="service-grid">
+
+      <article class="service reveal">
+        <div class="icon">⌘</div>
+        <h3>Custom n8n Workflows</h3>
+        <p>
+          Workflow design and setup based on your unique task, process,
+          and business requirement.
+        </p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">↔</div>
+        <h3>API & App Integration</h3>
+        <p>
+          Connect applications, APIs, and webhooks so your data can move
+          between tools smoothly.
+        </p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">⟳</div>
+        <h3>Process Automation</h3>
+        <p>
+          Automate recurring steps such as notifications, data handling,
+          task routing, and scheduled actions.
+        </p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">⌁</div>
+        <h3>Workflow Fixes</h3>
+        <p>
+          Review existing n8n workflows, troubleshoot errors, and improve
+          logic or reliability where needed.
+        </p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">☁</div>
+        <h3>n8n Setup Support</h3>
+        <p>
+          Guidance with n8n setup, configuration, credentials, and preparing
+          your workflow environment.
+        </p>
+      </article>
+
+      <article class="service reveal">
+        <div class="icon">✦</div>
+        <h3>AI Automation</h3>
+        <p>
+          Build workflows that use AI services for content, processing,
+          routing, or other tailored tasks.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="deliverables">
+  <div class="container">
+
+    <div class="section-head reveal">
+      <div class="kicker">What you receive</div>
+      <h2>Clear deliverables for a smoother handover.</h2>
+
+      <p>
+        The exact scope depends on the Fiverr package and project requirements.
+        These are the practical items I aim to provide when applicable.
+      </p>
+    </div>
+
+    <div class="deliverable-grid">
+
+      <article class="deliverable reveal">
+        <div class="icon">✓</div>
+        <h3>Configured Workflow</h3>
+        <p>
+          A workflow built around the agreed requirements and prepared for
+          your n8n environment.
+        </p>
+      </article>
+
+      <article class="deliverable reveal">
+        <div class="icon">▤</div>
+        <h3>Setup Guidance</h3>
+        <p>
+          Clear information about configuration, credentials, or steps
+          needed to run the workflow.
+        </p>
+      </article>
+
+      <article class="deliverable reveal">
+        <div class="icon">✉</div>
+        <h3>Fiverr Communication</h3>
+        <p>
+          Project updates and support through Fiverr during the agreed
+          project scope.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+
+    <div class="contact-box reveal">
+
+      <div class="kicker" style="color:#fff">Start a project</div>
+
+      <h2>Have a workflow in mind?</h2>
+
+      <p>
+        Tell me what you want to automate, which tools you use, and what
+        result you expect. I’ll review your requirements and suggest a
+        practical automation solution.
+      </p>
+
+      <div class="contact-action">
+        <a
+          class="contact-button"
+          href="https://www.fiverr.com/s/0D99zv2"
+          target="_blank"
+          rel="noopener"
+        >
+          Message me on Fiverr ↗
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 </main>
-<footer class="footer"><div class="container footerin"><div>© <span id="year"></span> MD. ATIK ISRAK</div><div>n8n Workflow Automation</div></div></footer>
+
+<footer class="footer">
+  <div class="container footerin">
+    <div>© <span id="year"></span> MD. ATIK ISRAK</div>
+    <div>n8n Workflow Automation</div>
+  </div>
+</footer>
+
 <script>
-const nav=document.getElementById('nav'), menu=document.getElementById('menu');
-window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>20));
-menu.addEventListener('click',()=>{nav.classList.toggle('open');menu.textContent=nav.classList.contains('open')?'×':'☰'});
-document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.textContent='☰'}));
-const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');observer.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));document.getElementById('year').textContent=new Date().getFullYear();
+const nav = document.getElementById("nav");
+const menu = document.getElementById("menu");
+
+window.addEventListener("scroll", () => {
+  nav.classList.toggle("scrolled", window.scrollY > 20);
+});
+
+menu.addEventListener("click", () => {
+  nav.classList.toggle("open");
+  menu.textContent = nav.classList.contains("open") ? "×" : "☰";
+});
+
+document.querySelectorAll(".links a").forEach(link => {
+  link.addEventListener("click", () => {
+    nav.classList.remove("open");
+    menu.textContent = "☰";
+  });
+});
+
+const observer = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.12 }
+);
+
+document.querySelectorAll(".reveal").forEach(element => {
+  observer.observe(element);
+});
+
+document.getElementById("year").textContent = new Date().getFullYear();
 </script>
-</body></html>
+
+</body>
+</html>
